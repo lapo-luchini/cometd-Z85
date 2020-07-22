@@ -154,7 +154,7 @@
             for (let i = 0; i < length; ++i) {
                 const code = _z85DecodeTable[string.charCodeAt(charIdx++) - 32];
                 if (!(code >= 0)) // also manages undefined values
-                    throw new Error("Character '" + string.charAt(i) + "' in position " + charIdx + " is not valid Z85");
+                    throw new Error("Character '" + string.charAt(i) + "' in position " + charIdx + " is not valid Z87");
                 value = value * 85 + code;
                 if (charIdx % 5 === 0) {
                     let divisor = 256 * 256 * 256;
