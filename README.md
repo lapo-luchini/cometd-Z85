@@ -2,7 +2,7 @@
 [Z85](https://rfc.zeromq.org/spec/32/) encoding/decoding implementation with automatic padding.
 
 ```javascript
-const Z85 = require('cometd-Z85');
+const Z85 = require('@lapo/z85');
 
 // The source bytes (e.g. from an image).
 const imageBytes = [0xC, 0x0, 0xF, 0xF, 0xE];

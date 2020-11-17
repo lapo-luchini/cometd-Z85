@@ -1,5 +1,5 @@
 {
-  "name": "cometd-Z85",
+  "name": "@lapo/z85",
   "version": "1.0.0",
   "description": "Z85 encoding/decoding",
   "keywords": [
@@ -12,15 +12,15 @@
     "binary",
     "text"
   ],
-  "homepage": "https://github.com/cometd/cometd-Z85",
+  "homepage": "https://github.com/lapo-luchini/z85",
   "bugs": {
-    "url": "https://github.com/cometd/cometd-Z85/issues"
+    "url": "https://github.com/lapo-luchini/z85/issues"
   },
   "license": "Apache-2.0",
   "main": "Z85.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cometd/cometd-Z85.git"
+    "url": "https://github.com/lapo-luchini/z85.git"
   },
   "scripts": {
     "test": "mocha --exit"
